@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BryceTurner Rock, Paper Scissors</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+<h1>The Rock Paper Scissors Game</h1>
+<h2>By BryceTurner</h2>
+<div class = "rules"><p>First to five!</p></div>
+<h2>Your Choice</h2>
+<div class = "gameButtons">
+  <div class = "rock" id ="iRock" = ><img  src="images/rock.jpg" alt="Rock"></div>
+  <div class = "paper" id ="iPaper"><img  src="images/paper.jpg" alt="Paper"></div>
+  <div class = "scissors" id ="iScissors"><img  src="images/scissors.jpg" alt="Scissors"></div>
+</div>
+<h2>Computers Choice</h2>
+<div class = "gameButtons">
+  <div class = "rockCom" id ="cRock"><img  src="images/rock.jpg" alt="Rock"></div>
+  <div class = "paperCom" id ="cPaper"><img  src="images/paper.jpg" alt="Paper"></div>
+  <div class = "scissorsCom" id ="cScissors"><img  src="images/scissors.jpg" alt="Scissors"></div>
+</div>
+<h2>Scoreboard</h2>
+<div class = "scoreboard">
+
+  <div class = "score">
+    <h3>You</h3><br><span id = "playerScore">0</span>
+  </div>
+  <div class = "score">
+    <h3>Computer</h3><br><span id = "compScore">0</span>
+  </div>
+
+</div>
+<br><span id = "Announcement"></span><br>
+<button onClick = "reset()" class="button">Reset</button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
